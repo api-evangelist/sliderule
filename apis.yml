@@ -1,8 +1,25 @@
 aid: sliderule
 name: SlideRule
-description: 'SlideRule is a company surfaced as a portfolio company of cowboy-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'SlideRule is a no-code risk decisioning platform that lets risk and operations
+  teams build, test, and deploy automated decision logic for fraud, credit, compliance,
+  and trust-and-safety use cases without writing code. Its rules engine combines SQL
+  and API data connectors, real-time analytics, A/B testing, backtesting, shadow mode,
+  and case-management automation, and exposes a single API to trigger decision workflows.
+  SlideRule has announced it is joining Block, Inc.; its standalone developer documentation
+  surface (docs.sliderule.io) is no longer publicly reachable, so no live API specification
+  could be harvested during enrichment.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6234ce56f516e606bc6f0ca6/6234d01dea5f2605479d005a_color-no-background-p-500.png
 url: https://raw.githubusercontent.com/api-evangelist/sliderule/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Risk
+- Fraud
+- Decisioning
+- Rules Engine
+- Compliance
+- Credit
+- Trust and Safety
+- No-Code
+- Fintech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/sliderule-domain-security.yml
+- type: Website
+  url: https://sliderule.io
+- type: DeveloperPortal
+  url: https://sliderule.io/for-engineers
+- type: About
+  url: https://sliderule.io/about-us
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
